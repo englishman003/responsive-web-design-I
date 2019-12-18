@@ -560,8 +560,8 @@ footer{
         width: 97vw;
     }
 
-    .site-header-container{
-        height: 100vh;
+    .site-header{
+        margin-top: 1%;
     }
 
     nav{
@@ -572,6 +572,12 @@ footer{
     .nav-link{
         width: 100%;
         text-align: center;
+        padding: 5% 0;
+        line-height: 0;
+    }
+
+    .nav-link:hover{
+        line-height: 0;
     }
 
     .nav-link:first-child{
@@ -581,6 +587,15 @@ footer{
     .nav-link:first-child:hover{
         margin: 0;
     }
+
+    /* .nav-link:hover{
+        background-color: forestgreen;
+        color: white;
+        height: 50px;
+        line-height: 45px;
+        border-top: 2px solid rgba(40, 40, 40, .5);
+        border-bottom: 2px solid rgba(40, 40, 40, .5);
+    } */
 
 }
 
